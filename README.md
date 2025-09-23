@@ -37,17 +37,21 @@ To run JobMatch locally, ensure you have the following installed:
    cd jobmatch
 
 2. **Set Up a Virtual Environment (recommended)**:
-   ```python -m venv venv
+   ```
+   python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. **Install Dependencies:**
-   ```pip install -r requirements.txt
+   ```
+   pip install -r requirements.txt
 
 4. **Configure Environment Variables**: Create a .env file in the project root and add the following:
-   ```GMAIL_USER=your-email@gmail.com
+   ```
+   GMAIL_USER=your-email@gmail.com
    GMAIL_APP_PASSWORD=your-app-password
    GEMINI_API_KEY=your-gemini-api-key
 
 5. **Run the Application:**
-   ```streamlit run main.py
+   ```
+   streamlit run main.py
 
