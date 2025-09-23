@@ -1,6 +1,6 @@
-# JobMatch
+# JobFinder
 
-JobMatch is a Streamlit-based web application designed to help candidates find personalized job opportunities. Powered by the Gemini API, JobMatch analyzes a candidate's resume to recommend the top 5 job matches based on their skills, experience, and job role, sourced from real-time data on Naukri.com using web scraping. The platform offers a seamless and user-friendly experience for job seekers, with features for secure account management and job applications.
+JobFinder is a Streamlit-based web application designed to help candidates find personalized job opportunities. Powered by the Gemini API, JobFinder analyzes a candidate's resume to recommend the top 5 job matches based on their skills, experience, and job role, sourced from real-time data on Naukri.com using web scraping. The platform offers a seamless and user-friendly experience for job seekers, with features for secure account management and job applications.
 
 ## Features
 
@@ -22,7 +22,7 @@ JobMatch is a Streamlit-based web application designed to help candidates find p
 
 ## Prerequisites
 
-To run JobMatch locally, ensure you have the following installed:
+To run JobFinder locally, ensure you have the following installed:
 - Python 3.8+
 - Streamlit
 - Required Python packages (listed in requirements.txt, including beautifulsoup4 and requests for web scraping)
@@ -33,8 +33,8 @@ To run JobMatch locally, ensure you have the following installed:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/jobmatch.git
-   cd jobmatch
+   git clone https://github.com/your-username/jobFinder.git
+   cd jobFinder
 
 2. **Set Up a Virtual Environment (recommended)**:
    ```

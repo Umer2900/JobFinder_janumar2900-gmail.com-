@@ -36,15 +36,15 @@ def candidate_interface():
     
     if choice == "Homepage":
         st.title("Candidate Homepage")
-        st.subheader(f"Welcome to JobMatch, {st.session_state.user['username']}!")
+        st.subheader(f"Welcome to JobFinder, {st.session_state.user['username']}!")
         st.markdown("""
         ### Your Journey to the Perfect Job Starts Here. 
 
-        As a candidate, you're on a mission to find a job that matches your skills, experience, and aspirations. **JobMatch** is here to help you every step of the way! Powered by the Gemini API, our platform uses advanced AI to analyze your resume and recommend the best job opportunities tailored just for you. Say goodbye to endless job searches—let us do the heavy lifting while you focus on landing your dream role.
+        As a candidate, you're on a mission to find a job that matches your skills, experience, and aspirations. **JobFinder** is here to help you every step of the way! Powered by the Gemini API, our platform uses advanced AI to analyze your resume and recommend the best job opportunities tailored just for you. Say goodbye to endless job searches—let us do the heavy lifting while you focus on landing your dream role.
 
         #### What You Can Do Here
 
-        **JobMatch** offers a personalized experience for candidates through two key sections accessible from the sidebar:
+        **JobFinder** offers a personalized experience for candidates through two key sections accessible from the sidebar:
 
         1. **Job Recommendation**  
            - **What It Does**: Upload your resume, and our AI will analyze it to extract your job role, experience, and skills. Using this information, we match you with the top 5 job opportunities from our curated job dataset. Each recommendation includes the job title, company, location, and a direct link to apply.  
@@ -56,7 +56,7 @@ def candidate_interface():
            - **Why It's Useful**: Keep your account secure by logging out when you're done. If you no longer need your account, the “Delete Account” option ensures your data is permanently removed.  
            - **How to Use It**: Go to “More,” then choose “Logout” to end your session or “Delete Account” to remove your profile.
 
-        #### Why Choose JobMatch?
+        #### Why Choose JobFinder?
         - **Personalized Job Matches**: Our AI, powered by the Gemini API, ensures you get recommendations that truly align with your profile.  
         - **Effortless Job Search**: No more scrolling through irrelevant listings—get the best matches in seconds.  
         - **Seamless Experience**: Our user-friendly interface makes it easy to upload your resume, find jobs, and apply with just a few clicks.  
