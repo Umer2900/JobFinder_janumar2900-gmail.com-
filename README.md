@@ -23,6 +23,16 @@ JobMatch is a Streamlit-based web application designed to help candidates find p
 - **Database**: SQLite (or other database, depending on `database.py` implementation)
 - **Environment Variables**: Managed via `os.environ` for secure email credentials
 
+
+## Job Matching Process
+
+The job recommendation system uses NLP to match resumes with job listings:
+- **Resume Parsing**: The Gemini API extracts relevant details (skills, experience, job roles) from the uploaded PDF resume.
+- **Vectorization**: Job descriptions from Naukri.com and the parsed resume text are vectorized using `TfidfVectorizer` from `scikit-learn`.
+- **Similarity Calculation**: Cosine similarity is computed between the resume vector and job vectors to identify the top 5 most relevant jobs.
+- **Output**: Results are displayed in an HTML table with clickable application links.
+
+
 ## Prerequisites
 
 To run JobMatch locally, ensure you have the following installed:
@@ -66,15 +76,6 @@ To run JobMatch locally, ensure you have the following installed:
    streamlit run main.py
    ```
    The app will be available at `http://localhost:8501`.
-
-
-## Job Matching Process
-
-The job recommendation system uses NLP to match resumes with job listings:
-- **Resume Parsing**: The Gemini API extracts relevant details (skills, experience, job roles) from the uploaded PDF resume.
-- **Vectorization**: Job descriptions from Naukri.com and the parsed resume text are vectorized using `TfidfVectorizer` from `scikit-learn`.
-- **Similarity Calculation**: Cosine similarity is computed between the resume vector and job vectors to identify the top 5 most relevant jobs.
-- **Output**: Results are displayed in an HTML table with clickable application links.
 
 
 ---
