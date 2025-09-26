@@ -1,5 +1,7 @@
 # JobMatch
 
+[**Live Demo**](https://jobmatch29.streamlit.app/)
+
 JobMatch is a Streamlit-based web application designed to help candidates find personalized job opportunities. Powered by the Gemini API for resume analysis and NLP techniques for job matching, JobMatch extracts skills, experience, and job roles from a candidate's resume and recommends the top 5 job matches sourced from real-time data on Naukri.com using web scraping. The platform offers a seamless and user-friendly experience for job seekers, with features for secure account management and job applications.
 
 ## Features
