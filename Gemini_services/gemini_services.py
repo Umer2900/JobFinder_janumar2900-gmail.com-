@@ -16,8 +16,6 @@ genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel(model_name="gemini-1.5-flash-latest")
 
 
-
-
 def parse_resume_for_candidate(resume_text):
     response = model.generate_content(
         f"""
