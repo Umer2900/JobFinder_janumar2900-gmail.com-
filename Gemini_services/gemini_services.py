@@ -13,7 +13,8 @@ GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]           # REPLACEMENT CODE (for 
 # Configure Gemini AI
 genai.configure(api_key=GEMINI_API_KEY)
 # model = genai.GenerativeModel(model_name="gemini-1.5-flash")   # OLD
-model = genai.GenerativeModel(model_name="gemini-1.5-flash-latest")
+# model = genai.GenerativeModel(model_name="gemini-1.5-flash-latest")
+model = genai.GenerativeModel("gemini-1.5-flash—002")
 
 
 def parse_resume_for_candidate(resume_text):
